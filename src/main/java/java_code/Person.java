@@ -6,6 +6,7 @@ public class Person {
 
     public Person(int age){
         this.age = age;
+        System.out.println("");
     }
 
 }

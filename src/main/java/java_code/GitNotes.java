@@ -1,6 +1,6 @@
 package java_code;
 
-public class HowToPushAndPull {
+public class GitNotes {
     /*
     git status:
         to check what is new in your repository.
@@ -22,4 +22,5 @@ public class HowToPushAndPull {
     git add colors.txt - to stage
 
      */
+
 }
