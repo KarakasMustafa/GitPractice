@@ -23,7 +23,31 @@ public class GitNotes {
 
     The process of getting a copy of projects call cloning
 
-    git clone - stands for getting a copy of projects from remote
+    git clone - stands for getting a copy of projects from remote.
+
+    ========================================================
+
+    if we modify a file that was changed by someone else before me, I can not pull updates.
+    This situation is called merge conflict.
+
+        There are 3 solutions:
+
+       1. Stash changes:
+            Its when you save your changes on a side. Then, you can apply your changes again after pull.
+       2. Discard changes:
+            its pretty much loss of your updates. If some file/files conflicts, you can discard your updates and pull code successfully.
+
+       3. Resolve merge conflict right away.
+            Step 1:
+                add your file to the staging area ( git add . )
+            Step 2:
+                Commit changes
+            Step 3:
+                pull updates from remote repository (git pull )
+            Step 4:
+                Open conflicting files and either manually change them or use intellij conflict resolver, etc.
+
+
 
      */
     /*
