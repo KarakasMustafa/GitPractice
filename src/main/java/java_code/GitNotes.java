@@ -45,11 +45,25 @@ public class GitNotes {
             Step 3:
                 pull updates from remote repository (git pull )
             Step 4:
-                Open conflicting files and either manually change them or use intellij conflict resolver, etc.
+                Open conflicting files and either manually change them (fix) or use intellij conflict resolver, etc.
+
+            blue
+            red
+            <<<<<<< HEAD
+            black
+            =======   // means where is conflict
+            green
+            >>>>>>> 8f9c3406c6e313e66d9095ec94b4f8cda289915a
+
+
+            if different files were modified, git will resolve conflict automatically, if same file was modified,
+            you will have to resolve conflict manually.
 
 
 
      */
+
+
     /*
     git status:
         to check what is new in your repository.
