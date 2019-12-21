@@ -7,3 +7,4 @@ purple
 white
 pink
 orange
+French roses
