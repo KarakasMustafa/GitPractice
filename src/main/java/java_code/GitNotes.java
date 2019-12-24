@@ -60,6 +60,67 @@ public class GitNotes {
             you will have to resolve conflict manually.
 
 
+            ##################################################
+
+            Merge conflict:
+                its when multiple contributors(2 or more people) changed the same file. To resolve conflict, we can do
+                couple things:
+
+                1. Stash changes:
+                    if you didnt finish and you can not combine changes, stash your changes. In this case, you are not losing
+                    changes forever.
+                2. Discard your changes ( you are losing your changes forever):
+                    Either git checkout file or git reset --hard
+                3. Resolve conflict.
+                    first of all we have to commit our changes
+                    then pull
+                    and check conflicting files (fix manually or through other tools, like in intellij )
+                    Accept their changes
+                    accept your changes
+                    merge changes( compromise )
+
+                    -once conflict is resolved, we can commit and push changes to github
+
+                4. Just clone project again and copy paste your changes ( No, but this is what people usually do)
+
+                   ################################3
+
+          GIT BRANCHES
+
+          What is branch?
+            Its a one version of your project. With git, we can have multiple version of project that exist in parallel.
+            Every branch can have independent commits history.
+
+            Ideally everybody works on their own branch, and then once work is done, you can create pull request to
+            apply your changes to main branch. This flow, allows to review code before accepting any changes.
+
+            git branch
+            * master
+
+            Master branch should have latest stable and confirmed code.
+
+            Ideally, master branch shouldn't accept direct commits. Otherwise changes can be committed without code review.
+            Usually team lead review code. But if there is no team lead/ test lead , then we do peer review.
+            Everyone must do code review. But test lead can decide/ choose the flow.
+            Every commit must be reviewed.
+
+            Commit code when you completed some work.
+
+            The main idea is that we have to be careful with master branch.
+
+       ***     In previous applications repository, we had a lot of branches.
+            2.12
+            2.13 - versions of applications.
+            2.14
+            release
+            master
+            dev
+            newfeature
+
+       git branch branchName  ===>> to create a new branch
+
+       then run git branch to see list of branches
+
 
      */
 
