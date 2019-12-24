@@ -4,3 +4,4 @@ lion
 rabbit
 tiger
 wolf
+scorpion
