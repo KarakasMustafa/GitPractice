@@ -122,6 +122,11 @@ public class GitNotes {
        then run git branch to see list of branches
 
 
+       If you don't stage files ( git add) and miss -a , you will get  "Nothing to commit".
+       git log ==> to see history of commits.
+       enter
+
+
      */
 
 
