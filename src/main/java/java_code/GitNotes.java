@@ -192,6 +192,12 @@ public class GitNotes {
        git log ==> to see history of commits.
        enter
 
+       to delete the branch :
+
+       git branch -d branchName
+
+
+
 
      */
 
