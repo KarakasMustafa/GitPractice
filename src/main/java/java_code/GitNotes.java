@@ -261,7 +261,10 @@ public class GitNotes {
     ==> if different files were modified, git will resolve conflict automatically. If same file was modified, we will
         have to resolve conflict manually.
 
+    ===> git checkout fileName ===> to discard all changes. File will be changes according to last commit.
+        So pretty much we are losing out changes and file will have same content as the last commit.
 
+        Another way to discard ALL CHANGES --> git reset -
      */
 
 }
