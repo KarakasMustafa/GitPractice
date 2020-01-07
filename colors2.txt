@@ -13,3 +13,4 @@ Ceyan
 Orange
 Cyber yellow
 golden
+fucsia
