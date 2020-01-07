@@ -5,3 +5,4 @@ black
 yellow
 purple
 pink
+navy blue
