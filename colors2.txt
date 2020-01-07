@@ -7,3 +7,4 @@ purple
 pink
 navy blue
 white
+java has no color
