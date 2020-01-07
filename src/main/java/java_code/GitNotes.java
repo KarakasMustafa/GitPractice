@@ -1,6 +1,7 @@
 package java_code;
 
 public class GitNotes {
+
     /*
     11/22/2019
 
@@ -221,6 +222,45 @@ public class GitNotes {
             modified:   colors.txt
 
     git add colors.txt - to stage
+
+     */
+
+    /*
+    01-06-2020
+        studying myself:
+
+    git status ==> to check what's new in your repository.
+
+    git add colors2.txt ==> to stage file (prepare this file for commit)
+
+    git commit -m "message" ===> to commit changes
+
+    git push ==> to send changes to remote repository.
+
+    git pull ==> if there is any changes in github repository, we can pull the updates by this line of code
+
+===== GIT MERGE CONFLICT =====
+
+    1. Stash Changes:
+        It's when you save your changes on a side. Then, you can apply your changes again after pull.
+
+    2. Discard Changes:
+        It's pretty much loss your own updates. If some file/files conflicts, you can discard your updates and pull code
+        successfully.
+
+    3. Resolve merge conflict:
+        Step 1:
+            add your file to the staging area (git add .)
+        Step 2:
+            Commit changes.
+        Step 3:
+            pull updates from remote repository ( git pull)
+        Step 4:
+
+
+    ==> if different files were modified, git will resolve conflict automatically. If same file was modified, we will
+        have to resolve conflict manually.
+
 
      */
 
