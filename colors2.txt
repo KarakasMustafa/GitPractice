@@ -14,3 +14,4 @@ Orange
 Cyber yellow
 golden
 fucsia
+french violet
