@@ -265,6 +265,14 @@ public class GitNotes {
         So pretty much we are losing out changes and file will have same content as the last commit.
 
         Another way to discard ALL CHANGES --> git reset -
+
+    ====> git stash save "message"
+        So in that way we save our changes and we will be able to pull without committing.
+
+        git stash list ===> to see our stash (to see what we saved)
+        Developers stash changes when they didnt complete development but they need to pull updates. So to avoid breaking
+        code, developers stash changes and open them when they pulled and can continue developing their codes.
+
      */
 
 }
