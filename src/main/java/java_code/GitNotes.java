@@ -123,8 +123,11 @@ public class GitNotes {
 
   ***  then run git branch to see list of branches
 
+  ***  git commit -a -m "message"   ==> add all files and commit, so we don't need to run add src/ before commit.
 
-       If you don't stage files ( git add) and miss -a , you will get  "Nothing to commit".
+
+  *** If you don't stage files ( git add) and miss -a , you will get  "Nothing to commit".
+
        git log ==> to see history of commits.
        enter
 
