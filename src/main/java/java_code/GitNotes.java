@@ -131,6 +131,8 @@ public class GitNotes {
        git log ==> to see history of commits.
        enter
 
+****  git push --set-upstream origin dev   ===> this is to push the new branch to github.
+
 
             ##################################################
 
