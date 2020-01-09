@@ -67,7 +67,7 @@ public class GitNotes {
                 couple things:
 
                 1. Stash changes:
-                    if you didnt finish and you can not combine changes, stash your changes. In this case, you are not losing
+                    if you didn't finish and you can not combine changes, stash your changes. In this case, you are not losing
                     changes forever.
                 2. Discard your changes ( you are losing your changes forever):
                     Either git checkout file or git reset --hard
@@ -100,15 +100,17 @@ public class GitNotes {
             Master branch should have latest stable and confirmed code.
 
             Ideally, master branch shouldn't accept direct commits. Otherwise changes can be committed without code review.
+            (Code review is essential process in programming, doesn't matter how experienced we are, mistakes happen)
             Usually team lead review code. But if there is no team lead/ test lead , then we do peer review.
-            Everyone must do code review. But test lead can decide/ choose the flow.
+            (peer review is when everyone review each others codes)
+            Everyone's code must go through  code review. But test lead can decide/ choose the flow.
             Every commit must be reviewed.
 
             Commit code when you completed some work.
 
             The main idea is that we have to be careful with master branch.
 
-       ***     In previous applications repository, we had a lot of branches.
+       ***  In previous applications repository, we had a lot of branches.
             2.12
             2.13 - versions of applications.
             2.14
@@ -117,9 +119,9 @@ public class GitNotes {
             dev
             newfeature
 
-       git branch branchName  ===>> to create a new branch
+   *** git branch branchName  ===>> to create a new branch
 
-       then run git branch to see list of branches
+  ***  then run git branch to see list of branches
 
 
        If you don't stage files ( git add) and miss -a , you will get  "Nothing to commit".
@@ -273,6 +275,11 @@ public class GitNotes {
         Developers stash changes when they didnt complete development but they need to pull updates. So to avoid breaking
         code, developers stash changes and open them when they pulled and can continue developing their codes.
 
+    ===> git stash pop  ==> to apply last stash to your code back
+
+    After git stash pop, resolve conflicts. Then commit your code again.
+
+    ===> git stash list ==> to
      */
 
 }
